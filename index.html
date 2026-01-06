@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MaxStrix — Premium Mobile Games</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root{
+      --yellow-light: #FFF9E6;
+      --yellow-main: #F4C430; /* warm golden yellow */
+      --yellow-dark: #D4A017;
+      --yellow-soft: rgba(244,196,48,0.25);
+      --text-main: #6b5600;
+    }
+
+    html, body{ height:100%; }
+
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:
+        radial-gradient(900px 400px at 15% 15%, rgba(244,196,48,0.18), transparent 40%),
+        radial-gradient(700px 400px at 85% 85%, rgba(212,160,23,0.16), transparent 45%),
+        linear-gradient(180deg, var(--yellow-light), #ffffff);
+      color: var(--text-main);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:3rem 1rem;
+    }
+
+    .soft-card{
+      max-width:1000px;
+      width:100%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.94), rgba(255,255,255,0.99));
+      border-radius:22px;
+      padding:2.6rem;
+      box-shadow: 0 18px 45px rgba(212,160,23,0.18);
+      border:1px solid rgba(244,196,48,0.18);
+    }
+
+    .brand{
+      font-size:2rem;
+      font-weight:800;
+      letter-spacing:-0.6px;
+      color: var(--yellow-main);
+    }
+
+    .brand span{ color: var(--yellow-dark); }
+
+    .subtitle{
+      color:#8a6d00;
+      font-weight:600;
+      margin-top:0.4rem;
+    }
+
+    .lead{
+      font-size:1.05rem;
+      line-height:1.65;
+      margin-top:1rem;
+      max-width:760px;
+      color:#6b5600;
+    }
+
+    .btn-gold{
+      background: linear-gradient(90deg, var(--yellow-main), var(--yellow-dark));
+      border:none;
+      color:#fff;
+      padding:0.75rem 1.35rem;
+      border-radius:16px;
+      box-shadow: 0 10px 26px rgba(244,196,48,0.35);
+    }
+
+    .btn-gold:hover{ filter:brightness(0.95); color:#fff; }
+
+    .btn-outline-gold{
+      border:1px solid rgba(244,196,48,0.45);
+      color: var(--yellow-dark);
+      border-radius:16px;
+      padding:0.7rem 1.25rem;
+      background:transparent;
+    }
+
+    .btn-outline-gold:hover{ background:rgba(244,196,48,0.08); }
+
+    .info-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:1.3rem;
+      margin-top:2.2rem;
+    }
+
+    .info-card{
+      background: linear-gradient(180deg, rgba(244,196,48,0.06), rgba(255,255,255,0.6));
+      border-radius:18px;
+      padding:1.5rem;
+      text-align:center;
+      border:1px solid rgba(244,196,48,0.18);
+      height:100%;
+    }
+
+    .icon{
+      width:54px;
+      height:54px;
+      border-radius:16px;
+      margin:0 auto 0.6rem auto;
+      display:grid;
+      place-items:center;
+      background: linear-gradient(180deg, rgba(244,196,48,0.35), rgba(212,160,23,0.18));
+      color:#fff;
+      box-shadow: 0 8px 22px rgba(244,196,48,0.35);
+      font-size:1.3rem;
+    }
+
+    .info-card h5{
+      color: var(--yellow-dark);
+      font-weight:700;
+      margin-bottom:0.3rem;
+    }
+
+    .info-card p{
+      font-size:0.95rem;
+      color:#7a6200;
+      margin-bottom:0.9rem;
+    }
+
+    footer{
+      margin-top:2.2rem;
+      text-align:center;
+      font-size:0.9rem;
+      color:#9a7b00;
+    }
+
+    @media (max-width:768px){
+      .brand{ font-size:1.6rem; }
+      .info-grid{ grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="soft-card">
+
+    <div class="mb-4">
+      <h1 class="brand">Welcome to <span>MaxStrix</span></h1>
+      <div class="subtitle">Premium Mobile Game Studio</div>
+
+      <p class="lead">
+        MaxStrix is a mobile game studio dedicated to delivering high-quality and engaging gaming experiences. Our games attract millions of downloads and feature popular characters loved by players around the world. By combining modern technologies with creative design, we ensure smooth performance and immersive gameplay. Discover our games and enjoy a comfortable, enjoyable, and memorable mobile experience.
+      </p>
+
+      <div class="d-flex gap-2 flex-wrap mt-3">
+        <a class="btn btn-gold" href="https://play.google.com/store/apps/developer?id=MaxStrix" target="_blank" rel="noopener">Google Play Store</a>
+        <a class="btn btn-outline-gold" href="https://sites.google.com/view/maxstrix-privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
+      </div>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <div class="icon">🎮</div>
+        <h5>Our Games</h5>
+        <p>Explore high-quality mobile games with popular characters.</p>
+        <a class="btn btn-gold" href="https://play.google.com/store/apps/developer?id=MaxStrix" target="_blank" rel="noopener">Open Store</a>
+      </div>
+
+      <div class="info-card">
+        <div class="icon">🛡</div>
+        <h5>Privacy & Policy</h5>
+        <p>Learn how we protect user data and respect player privacy.</p>
+        <a class="btn btn-outline-gold" href="https://sites.google.com/view/maxstrix-privacy-policy/" target="_blank" rel="noopener">View Policy</a>
+      </div>
+
+      <div class="info-card">
+        <div class="icon">✉</div>
+        <h5>Contact</h5>
+        <p>Reach out to our team for support, feedback, or cooperation.</p>
+        <a class="btn btn-outline-gold" href="mailto:maxstrixsp@hotmail.com">maxstrixsp@hotmail.com</a>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="year"></span> MaxStrix — Play Comfortably, Play Better
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
