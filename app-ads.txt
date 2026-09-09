@@ -648,11 +648,11 @@ bidstrade.io, 100216, DIRECT
 bidstrade.io, 100217, DIRECT
 bigo.sg, 1011110, RESELLER
 bigo.sg, 109, RESELLER
-bigo.sg, 1113487, DIRECT
 bigo.sg, 1114681, RESELLER
 bigo.sg, 128, RESELLER
 bigo.sg, 130, RESELLER
 bigo.sg, 23167438, DIRECT
+bigo.sg, k6t794cnps, DIRECT
 bildapp.net, 164391510, RESELLER
 blasto.ai, 13, RESELLER, 7e936b1feafdaa61
 blasto.ai, 354, RESELLER
